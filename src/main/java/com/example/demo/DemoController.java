@@ -22,7 +22,7 @@ public class DemoController {
 		return abc;
 	}
 	@GetMapping(value = "test1k")
-	public String test1() throws Exception {
+	public String test1k() throws Exception {
 		Thread.sleep(300);  
 		return "test1k";
 	}
