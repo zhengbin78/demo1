@@ -21,6 +21,11 @@ public class DemoController {
 		log.info("参数值={}",abc);
 		return abc;
 	}
+	@GetMapping(value = "test1k")
+	public String test1() throws Exception {
+		Thread.sleep(300);  
+		return "test1k";
+	}
 	
    
 }
