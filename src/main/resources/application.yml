@@ -1,5 +1,7 @@
 logging:
-  file: /tomcat/logs/app.log
   level:
     org:
       springframework: INFO
+      
+book:
+  name: zhengbin_book
