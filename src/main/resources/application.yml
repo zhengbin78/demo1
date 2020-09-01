@@ -2,10 +2,10 @@ logging:
   level:
     org:
       springframework: INFO
-endpoints:
-  enabled: true
-  sensitive: false
-management.health.defaults.enabled: true
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 book:
   name: zhengbin_book
